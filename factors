@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """ Factor numbers """
 from sys import argv
-from math import sqrt
 
 
 def open_read_file(file_name):
