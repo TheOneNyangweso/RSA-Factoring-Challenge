@@ -28,6 +28,5 @@ def fac_list(ls):
         find_and_times(i)
 
 
-if __name__ == "__main__":  # added this line to ensure the script doesn't run when imported
-    if len(argv) == 2:
-        fac_list(open_read_file(argv[1]))
+if len(argv) == 2:
+    fac_list(open_read_file(argv[1]))
